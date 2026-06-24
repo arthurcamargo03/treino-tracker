@@ -1,7 +1,9 @@
 package com.treinotracker;
 
+import com.treinotracker.ui.ConsoleApp;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Treino Tracker");
+        new ConsoleApp().run();
     }
 }
